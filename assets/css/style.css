@@ -150,12 +150,13 @@ img
 {
     max-width: 100%;
 }
+
 /* ---------- Experience ---------- */
 .experience
 {
     background: #111;
 }
-.heading.white
+.heading.experience
 {
     color: #fff;
 }
@@ -185,6 +186,46 @@ img
     max-width: 175px;
 }
 .experience .content .experienceBx h2
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* ---------- Projects ---------- */
+.project
+{
+    background: #fff;
+}
+.heading.project
+{
+    color: #fff;
+}
+.project .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.project .content .projectBx
+{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 700px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.project .content .projectBx:hover
+{
+    background: #2196f3;
+}
+.project .content .projectBx img
+{
+    max-width: 175px;
+}
+.project .content .projectBx h2
 {
     font-size: 30px;
     font-weight: 600;
