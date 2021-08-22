@@ -142,6 +142,7 @@ header.sticky  ul li a
 {
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .w50
 {
@@ -173,7 +174,10 @@ img
     padding: 40px 20px;
     background: #222;
     color: #fff;
-    max-width: 700px;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 1000px;
+    min-height: 550px;
     margin: 20px;
     text-align: center;
     transition: 0.5s;
@@ -209,7 +213,10 @@ img
     padding: 40px 20px;
     background: #222;
     color: #fff;
-    max-width: 700px;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 1000px;
+    min-height: 550px;
     margin: 20px;
     text-align: center;
     transition: 0.5s;
