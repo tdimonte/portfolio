@@ -156,7 +156,7 @@ img
 {
     background: #111;
 }
-.heading.experience
+.heading.light
 {
     color: #fff;
 }
@@ -196,10 +196,6 @@ img
 {
     background: #fff;
 }
-.heading.project
-{
-    color: #fff;
-}
 .project .content
 {
     display: flex;
@@ -229,4 +225,10 @@ img
 {
     font-size: 30px;
     font-weight: 600;
+}
+
+/* ---------- Contact ---------- */
+.contact
+{
+    background: #111;
 }
