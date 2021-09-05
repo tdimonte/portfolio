@@ -247,3 +247,10 @@ header.sticky  ul li a
 {
     background: #111;
 }
+
+/* ---------- Icons ---------- */
+.fab
+{
+    font-size: 50px;
+    color: #dda87d;
+}
