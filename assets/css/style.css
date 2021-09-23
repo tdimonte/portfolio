@@ -242,6 +242,52 @@ header.sticky  ul li a
     font-weight: 600;
 }
 
+/* ---------- Certifications & Events ---------- */
+.cert
+{
+    background: #111;
+}
+.heading.light
+{
+    color: #fff;
+}
+.cert .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cert .content .certBx
+{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 1000px;
+    min-height: 550px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.cert .content .certBx:hover
+{
+    background: #2196f3;
+}
+.cert .content .certBx img
+{
+    max-width: 175px;
+    min-width: 175px;
+    max-height: 175px;
+    min-height: 175px;
+}
+.cert .content .certBx h2
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+
 /* ---------- Contact ---------- */
 .contact
 {
